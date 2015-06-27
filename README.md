@@ -13,5 +13,5 @@ A librarian module that lets users reward other librarian workers for archiving 
 9. Analyze the data in this field from all `Historians` who have submitted
 10. Determine how many `datablocks` there should be in each `Reward period` - ie, if the `datapoints` are being submitted every 5 minutes, but the `Reward period` is set to hourly, there should be 12 `datablocks` per `Reward period` per `Historian`.
 11. For each `datablock`, determine the mean value for the selected field from all `datapoints` from all `Historians`
-12. Based on the `History Patron` message, select either a single winner or identify all winners within [int] percent of the mean entry.
+12. Based on the `History Patron` message, select either a single winner or identify all winners within [int] percent of the mean entry for each `datablock`.
 13. Send out payments
